@@ -5,10 +5,12 @@ import Signin from './assets/pages/Signin'
 import SignOut from './assets/pages/SignOut'
 import Profile from './assets/pages/Profile'
 import About from './assets/pages/About'
+import Header from './components/Header'
 
 function App() {
-  return (
+  return (  
     <BrowserRouter>
+    <Header/>
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/signin" element={<Signin/>} />
