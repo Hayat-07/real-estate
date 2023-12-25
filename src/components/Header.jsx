@@ -6,9 +6,9 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <header className=" py-2 bg-emerald-500  flex justify-between">
+    <header className=" py-2 bg-emerald-500  flex  items-center justify-center ">
       <Link to="/">
-        <h2 className=" m-auto ">
+        <h2 className=" m-auto text-center bg-slate-600">
           <span className=" text-gray-800">BD</span>
           <span className=" text-slate-950">State</span>
         </h2>
